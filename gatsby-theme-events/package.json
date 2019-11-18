@@ -7,5 +7,12 @@
   "license": "MIT",
   "peerDependencies": {
     "gatsby": "^2.17.11"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.22",
+    "@mdx-js/react": "^1.5.1",
+    "gatsby-plugin-theme-ui": "^0.2.43",
+    "gatsby-source-sanity": "^5.0.4",
+    "theme-ui": "^0.2.49"
   }
 }
