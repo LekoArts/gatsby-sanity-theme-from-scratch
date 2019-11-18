@@ -52,6 +52,13 @@ export default {
       fontWeight: 'heading',
       fontSize: 4,
     },
+    h3: {
+      color: 'text',
+      fontFamily: 'heading',
+      lineHeight: 'heading',
+      fontWeight: 'heading',
+      fontSize: 3,
+    },
     p: {
       color: 'text',
       fontFamily: 'body',
