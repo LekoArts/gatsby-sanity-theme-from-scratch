@@ -22,6 +22,7 @@ export default {
     text: '#202124',
     background: '#fff',
     primary: '#1a73e8',
+    primaryMuted: '#ddebfb',
     secondary: '#9c27b0',
     muted: '#626a71',
   },
