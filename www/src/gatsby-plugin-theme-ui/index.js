@@ -23,13 +23,29 @@ export default {
     background: '#fff',
     primary: '#1a73e8',
     secondary: '#9c27b0',
-    muted: '#737d84',
+    muted: '#626a71',
   },
   containers: {
     default: {
       maxWidth: `container`,
       padding: 4,
       margin: `0 auto`,
+    },
+  },
+  list: {
+    default: {
+      h2: {
+        mt: 5,
+        color: `secondary`,
+      },
+    },
+  },
+  listItem: {
+    subline: {
+      color: `muted`,
+      'div:last-of-type': {
+        ml: 3,
+      },
     },
   },
   styles: {
