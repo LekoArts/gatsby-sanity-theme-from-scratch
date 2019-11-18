@@ -23,7 +23,9 @@ const Layout = ({ children }) => {
       <Helmet title="Meetup 🎉" />
       <div sx={{ variant: `containers.default` }}>
         <Flex as="header" sx={{ justifyContent: `space-between`, mb: 5 }}>
-          <h1>Meetup</h1>
+          <Link to="/" sx={{ textDecoration: `none`, color: `text` }}>
+            <h1>Meetup</h1>
+          </Link>
           <Flex as="nav" sx={{ alignItems: `center` }}>
             <Styled.a href="https://twitter.com/lekoarts_de">Twitter</Styled.a>
             <Styled.a as={Link} to="/events" sx={{ ml: 3 }}>

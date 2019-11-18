@@ -1,5 +1,4 @@
 /** @jsx jsx */
-import React from 'react'
 import { Styled, jsx } from 'theme-ui'
 import ListItem from './list-item'
 import sortEvents from '../utils/sort-events'
