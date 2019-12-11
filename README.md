@@ -7,7 +7,7 @@ This repository is used as an example to showcase [Gatsby Themes][gatsbythemes] 
 This simple example showcases:
 
 - An example website for a meetup. That meetup has its information hard-coded into the React code but now would like to add a list of upcoming and previous meetups to the website. Non-technical folks should be able to edit this. The example will use Sanity.io for that. The homepage has the next upcoming event, on a separate page the whole list is displayed
-- A theme that accesses Sanity and creates a list of those meetup dates. It should also have a React hook to expose the next upcoming event
+- A theme that accesses Sanity and creates a list of those meetup dates. Components from it can also be used in isolation, e.g. on the homepage
 - Theme UI should be used for styling
 
 This theme won't be published to npm, it's only for testing purposes.
