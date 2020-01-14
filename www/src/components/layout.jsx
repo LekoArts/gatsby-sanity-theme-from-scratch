@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import { Styled, Flex, jsx } from 'theme-ui'
 import { Link } from 'gatsby'
 
-const Layout = ({ children }) => {
+const Layout = ({ children, title = "Meetup 🎉" }) => {
   return (
     <Styled.root>
       <Global
@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
           },
         })}
       />
-      <Helmet title="Meetup 🎉" />
+      <Helmet title={title} />
       <div sx={{ variant: `containers.default` }}>
         <Flex as="header" sx={{ justifyContent: `space-between`, mb: 5 }}>
           <Link to="/" sx={{ textDecoration: `none`, color: `text` }}>
