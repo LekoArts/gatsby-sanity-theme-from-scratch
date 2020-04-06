@@ -1,11 +1,12 @@
 export default {
   widgets: [
     {
-      name: "gatsby",
+      name: 'gatsby',
       options: {
-        instances: [
+        sites: [
           {
-            instanceUrl: "https://gatsby-sanity-theme-from-scratch-5575687666.gtsb.io",
+            siteUrl:
+              'https://gatsby-sanity-theme-from-scratch-5575687666.gtsb.io',
           },
         ],
       },

@@ -7,7 +7,7 @@ import Layout from '../components/layout'
 export default ({ data: { allSanityEvent } }) => {
   const { upcoming } = sortEvents(allSanityEvent.nodes)
 
-  const nextEvent = upcoming.reverse()[0]
+  const nextEvent = upcoming[0]
 
   return (
     <Layout>
@@ -15,9 +15,9 @@ export default ({ data: { allSanityEvent } }) => {
       <Styled.p>
         This meetup is for anyone interested in anything on the web. We organise
         talks, workshops, coding nights, and social events. We also encourage,
-        support, and help community members, especially those underrepresented in
-        tech, contribute with their own content. If you're interested in giving
-        talks please let us know!
+        support, and help community members, especially those underrepresented
+        in tech, contribute with their own content. If you're interested in
+        giving talks please let us know!
       </Styled.p>
       <Styled.p>The next upcoming event will be:</Styled.p>
       <div sx={{ p: 3, bg: `primaryMuted` }}>

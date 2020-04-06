@@ -3,7 +3,11 @@ import { graphql } from 'gatsby'
 import List from '../components/list'
 import Layout from '../components/layout'
 
-const Events = ({ data }) => <Layout><List events={data.allSanityEvent.nodes} /></Layout>
+const Events = ({ data }) => (
+  <Layout>
+    <List events={data.allSanityEvent.nodes} />
+  </Layout>
+)
 
 export default Events
 

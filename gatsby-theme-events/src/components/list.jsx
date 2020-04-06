@@ -10,7 +10,7 @@ const List = ({ events }) => {
     <section sx={{ variant: `list.default` }}>
       <Styled.h2>Upcoming Events</Styled.h2>
       <ul>
-        {upcoming.map(event => (
+        {upcoming.map((event) => (
           <li key={event.name}>
             <ListItem event={event} />
           </li>
@@ -18,7 +18,7 @@ const List = ({ events }) => {
       </ul>
       <Styled.h2>Past Events</Styled.h2>
       <ul>
-        {past.map(event => (
+        {past.map((event) => (
           <li key={event.name}>
             <ListItem event={event} />
           </li>

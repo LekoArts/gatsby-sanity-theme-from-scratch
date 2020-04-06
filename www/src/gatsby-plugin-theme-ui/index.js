@@ -54,6 +54,10 @@ export default {
       fontFamily: 'body',
       lineHeight: 'body',
       fontWeight: 'body',
+      margin: 0,
+      padding: 0,
+      boxSizing: `border-box`,
+      textRendering: `optimizeLegibility`,
     },
     h1: {
       color: 'text',

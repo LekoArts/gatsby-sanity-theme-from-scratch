@@ -1,25 +1,12 @@
 /** @jsx jsx */
-import { Global, css } from '@emotion/core'
 import Helmet from 'react-helmet'
+import React from 'react'
 import { Styled, Flex, jsx } from 'theme-ui'
 import { Link } from 'gatsby'
 
-const Layout = ({ children, title = "Meetup 🎉" }) => {
+const Layout = ({ children, title = 'Meetup 🎉' }) => {
   return (
-    <Styled.root>
-      <Global
-        styles={css({
-          '*': {
-            boxSizing: `inherit`,
-          },
-          body: {
-            margin: 0,
-            padding: 0,
-            boxSizing: `border-box`,
-            textRendering: `optimizeLegibility`,
-          },
-        })}
-      />
+    <React.Fragment>
       <Helmet title={title} />
       <div sx={{ variant: `containers.default` }}>
         <Flex as="header" sx={{ justifyContent: `space-between`, mb: 5 }}>
@@ -41,7 +28,7 @@ const Layout = ({ children, title = "Meetup 🎉" }) => {
           </Styled.a>
         </footer>
       </div>
-    </Styled.root>
+    </React.Fragment>
   )
 }
 
